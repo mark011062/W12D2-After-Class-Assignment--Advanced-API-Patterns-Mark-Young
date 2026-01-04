@@ -4,7 +4,6 @@ pydantic>=2.0
 pydantic-settings>=2.0
 sqlalchemy>=2.0
 psycopg2-binary
-passlib[bcrypt]
 PyJWT
 redis>=5.0
 httpx>=0.24
@@ -12,3 +11,5 @@ pytest
 pytest-asyncio
 pytest-cov
 email-validator
+passlib[bcrypt]==1.7.4
+bcrypt==4.0.1
